@@ -4,7 +4,7 @@ author: "Cloudera"
 date: "2023-12-20"
 specification_version: 1.0
 prototype_version: 1.0
-environment_variables:
+# environment_variables:
   # AWS_ACCESS_KEY_ID:
   #   default: ""
   #   description: "Access key ID for interacting with AWS Bedrock"
@@ -14,15 +14,15 @@ environment_variables:
   # AWS_DEFAULT_REGION:
   #   default: "us-west-2"
   #   description: "AWS Region where Bedrock models are available"
-  PINECONE_API_KEY:
-    default: ""
-    description: "API Keys for Pinecone service"
-  PINECONE_REGION:
-    default: "us-east-1"
-    description: "Cloud Region within Pinecone service"
-  PINECONE_INDEX:
-    default: ""
-    description: "Index within Pinecone Environment"
+  # PINECONE_API_KEY:
+  #   default: ""
+  #   description: "API Keys for Pinecone service"
+  # PINECONE_REGION:
+  #   default: "us-east-1"
+  #   description: "Cloud Region within Pinecone service"
+  # PINECONE_INDEX:
+  #   default: ""
+  #   description: "Index within Pinecone Environment"
 
 runtimes: 
   - editor: JupyterLab
